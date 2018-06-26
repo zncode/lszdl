@@ -7,6 +7,7 @@ class IndexController extends BaseController
 {
     public function index()
     {
+        echo '网站建设中~~~';die;
         return view('index/index');
     }
 
