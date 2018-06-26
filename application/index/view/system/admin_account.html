@@ -1,0 +1,69 @@
+<!-- 头部开始 -->
+{include file="page/header" /}
+<!-- 头部结束 -->
+
+<!-- 菜单开始 -->
+{include file="page/menu" /}
+<!-- 菜单结束 -->
+
+<!-- 内容开始 -->
+<div class="content-wrapper">
+
+    <!-- 内容标题开始 -->
+    <section class="content-header">
+        <h1>
+            {$module_name}设置
+        </h1>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-dashboard"></i>首页</li>
+            <li><i class="fa fa-dashboard"></i>{$module_name}设置</li>
+        </ol>
+    </section>
+    <!-- 内容标题结束 -->
+
+    <!-- 主内容开始 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+
+                    </div>
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    <form id="add_form" action="{$action}" method="post" >
+                        <div class="box-body">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                        <label >用户名</label>
+                                        <input type="input" name="name" class="form-control"  placeholder="" value="admin" disabled="disabled">
+                                </div>
+                                <div class="form-group">
+                                    <label >密码</label>
+                                    <input type="password" name="password1" class="form-control"  placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label >重复密码</label>
+                                    <input type="password" name="password2" class="form-control"  placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary">提交</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 主内容结束 -->
+
+</div>
+<!-- 内容结束 -->
+
+<!-- 脚部开始 -->
+{include file="page/footer" /}
+<!-- 脚部结束 -->
+
+
