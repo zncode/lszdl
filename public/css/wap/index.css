@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+html {font-size: 50px;}
+body {
+    background-color: #f6f6f6;
+    display: block;
+}
+img {
+    display: block;
+    border: none;
+}
+
+.header{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+    padding-top: 0.3rem;
+    border-bottom: 0.01rem solid #e6e6e6;
+    padding-bottom: 0.2rem;
+    background-color: white;
+    font-size: 0.5rem;
+    text-align: center;
+}
+.logo_img {
+    width: 1.42rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+
+.swiper_img img{
+    width: 7.2rem;
+    height: 4rem;
+    color: white;
+    font-size: 0.2rem;
+    line-height: 3rem;
+}
+.product_list{
+
+}
+.product{
+    width: 6.7rem;
+    height: 4.3rem;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 0 0 0.08rem 0.08rem;
+    margin-bottom: 0.2rem;
+}
+.product_title{
+    width: 6.7rem;
+    height: 0.6rem;
+    padding: 0 0.3rem 0 0.25rem;
+    font-size: 0.4rem;
+    margin: 0.5rem 0 0 0;
+}
+.product_img{
+    width: 6.7rem;
+    height: 3.35rem;
+    border-radius: 0.08rem 0.08rem 0 0;
+}
+.product_description{
+    width: 6.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.product_description_left{
+    float: left;
+}
+.product_description_left p{
+    font-size: 0.28rem;
+    color: #333333;
+    margin-top: 0.08rem;
+}
+.product_description_left span{
+    font-size: 0.24rem;
+    color: #999999;
+    display: block;
+    margin-top: 0.04rem;
+}
+.product_description_right{
+    font-size: 0.3rem;
+    color: #ab0000;
+    float: right;
+    line-height: 0.95rem;
+}

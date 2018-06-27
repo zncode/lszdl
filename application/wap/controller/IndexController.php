@@ -1,13 +1,12 @@
 <?php
-namespace app\index\controller;
+namespace app\wap\controller;
 
-use app\index\controller\BaseController;
+use app\wap\controller\BaseController;
 
 class IndexController extends BaseController
 {
     public function index()
     {
-        echo '网站建设中~~~';die;
         return view('index/index');
     }
 

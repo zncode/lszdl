@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>首页精选</title>
+
+  <link rel="stylesheet" href="{$Think.PUBLIC_PATH}css/wap/index.css">
+  <link rel="stylesheet" href="{$Think.PUBLIC_PATH}css/wap/swiper.min.css">
+  <script src="{$Think.PUBLIC_PATH}js/wap/swiper.min.js"></script>
+  <script src="{$Think.PUBLIC_PATH}js/wap/swiper.animate.min.js"></script>
+
+</head>
+
+<body>
+  <div class="header">
+    联塑总代
+  </div>
+
+  <div class="main">
+    <!-- 轮播 -->
+    <div class="swiper-container swiper_big">
+      <div class="swiper-wrapper swiper-box">
+        <div class="swiper-slide swiper_img">
+          <img src="{$Think.PUBLIC_PATH}image/wap/banner_1.jpg" alt="">
+        </div>
+        <div class="swiper-slide swiper_img">
+          <img src="{$Think.PUBLIC_PATH}image/wap/banner_2.jpg" alt="">
+        </div>
+        <div class="swiper-slide swiper_img">
+          <img src="{$Think.PUBLIC_PATH}image/wap/banner_3.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- 产品-->
+    <div class="product_title">最新产品</div>
+    <div class="product_list">
+      <div class="product">
+        <img src="{$Think.PUBLIC_PATH}image/wap/product_1.jpg" alt="" class="product_img">
+        <div class="product_description">
+          <div class="product_description_left">
+            <p>忧郁的画</p>
+            <span>王某某</span>
+          </div>
+          <p class="product_description_right">￥2680</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="{$Think.PUBLIC_PATH}image/wap/product_2.jpg" alt="" class="product_img">
+        <div class="product_description">
+          <div class="product_description_left">
+            <p>忧郁的画</p>
+            <span>王某某</span>
+          </div>
+          <p class="product_description_right">￥2680</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="{$Think.PUBLIC_PATH}image/wap/product_3.jpg" alt="" class="product_img">
+        <div class="product_description">
+            <div class="product_description_left">
+              <p>忧郁的画</p>
+              <span>王某某</span>
+            </div>
+            <p class="product_description_right">￥2680</p>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+
+</body>
+
+<script>
+    // 精选轮播
+    (function(){
+        var mySwiper = new Swiper ('.swiper_big', {
+            loop: true,
+            autoplay : 2000,
+            // effect : 'coverflow',
+
+            centeredSlides: true,
+            pagination: '.swiper-pagination',
+
+            onInit: function(swiper){ //
+                swiperAnimateCache(swiper); //隐藏动画元素
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function(swiper){
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            }
+        })
+
+    })();
+
+</script>
+
+</html>

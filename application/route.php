@@ -46,3 +46,4 @@ Route::post('admin/system/setup_submit', 	        'SystemController/setup_submit
 Route::get('admin/system/admin_account', 	        'SystemController/admin_account');
 Route::post('admin/system/admin_account_submit', 	'SystemController/admin_account_submit');
 include 'route_api.php';
+include 'route_app.php';
