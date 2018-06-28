@@ -20,4 +20,9 @@ class IndexController extends BaseController
     {
         return view('index/company');
     }
+
+    public function buy_success()
+    {
+        return view('index/success');
+    }
 }
