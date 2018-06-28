@@ -15,4 +15,9 @@ class IndexController extends BaseController
 
         return view('index/product_info');
     }
+
+    public function company()
+    {
+        return view('index/company');
+    }
 }
