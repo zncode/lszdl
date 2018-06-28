@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>产品详情</title>
-
+  <link rel="stylesheet" href="{$Think.PUBLIC_PATH}css/wap/weui.css">
   <link rel="stylesheet" href="{$Think.PUBLIC_PATH}css/wap/style.css">
   <link rel="stylesheet" href="{$Think.PUBLIC_PATH}css/wap/product.css">
 </head>
@@ -252,24 +252,48 @@
 <!-- 订单信息 -->
 <div class="order_info">
   <form action="">
-    <div class="">
-      <label>姓名:</label>
-      <input type="textfield" name="username" value="">
-    </div>
-    <div class="">
-      <label>手机:</label>
-      <input type="textfield" name="mobile" value="">
-    </div>
-    <div class="">
-      <label>地址:</label>
-      <input type="textfield" name="address" value="">
-    </div>
-    <div class="">
-      <label>备注:</label>
-      <textarea rows="3" cols="25"></textarea>
+    <div class="form-control">
+      <div class="weui-cells__title">姓名:</div>
+      <div class="weui-cells">
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="您的名字" name="name">
+          </div>
+        </div>
+      </div>
     </div>
     <div class="form-control">
-      <input type="submit" value="购买" id="buy_submit">
+      <div class="weui-cells__title">手机号:</div>
+      <div class="weui-cells">
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="135xxxxxxxx" name="mobile">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-control">
+      <div class="weui-cells__title">地址</div>
+      <div class="weui-cells">
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="北京市xx区xx路1号" name="address">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-control">
+      <div class="weui-cells__title">备注</div>
+      <div class="weui-cells weui-cells_form">
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <textarea class="weui-textarea" placeholder="周一到周五送货" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-control">
+      <input type="submit" value="购买" class="weui-btn weui-btn_mini weui-btn_primary">
     </div>
   </form>
 </div>
