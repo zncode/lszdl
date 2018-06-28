@@ -10,11 +10,9 @@ class IndexController extends BaseController
         return view('index/index');
     }
 
-    public function resource_list()
-    {
-//        echo 'test';die;
-        return view('index/resource_list');
+    public function product_info(){
+        $id = input('id') ? input('id') : 1;
+
+        return view('index/product_info');
     }
-
-
 }

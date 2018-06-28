@@ -1,0 +1,421 @@
+.goods_div_big {
+    width: 100%;
+    background-color: white;
+}
+
+.goods_top {
+    width: 6.65rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.return {
+    width: 0.35rem;
+    height: 0.14rem;
+    float: left;
+    margin-top: 0.43rem;
+}
+.goods_div_h4 {
+    width: 5.59rem;
+    height: 1rem;
+    float: left;
+}
+.goods_div_h4 h4 {
+    font-size: 0.34rem;
+    color: #333333;
+    text-align: center;
+    line-height: 1rem;
+}
+.sharing {
+    width: 0.35rem;
+    height: 0.33rem;
+    float: right;
+    margin-top: 0.335rem;
+}
+.pro_tu img {
+    width: 7.2rem;
+}
+.pro_bottom1 {
+    width: 6.6rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.18rem;
+}
+.pro_bottom1 p {
+    font-size: 0.32rem;
+    color: #2b2b2b;
+    float: left;
+}
+.pro_bottom1 span {
+    font-size: 0.24rem;
+    color: #909090;
+    float: left;
+    display: block;
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+}
+.artists_name {
+    width: 6.6rem;
+    font-size: 0.24rem;
+    color: #909090;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+}
+.pro_bottom2 {
+    width: 6.6rem;
+    overflow: hidden;
+    margin: 0 auto;
+    #border-bottom: 0.01rem solid #d5d5d5;
+    padding-bottom: 0.1rem;
+}
+.pro_bottom2 p {
+    font-size: 0.32rem;
+    color: #c1272b;
+    float: left;
+    margin-top: 0.15rem;
+}
+.pro_bottom2 span {
+    font-size: 0.24rem;
+    color: #909090;
+    float: left;
+    display: block;
+    margin-left: 0.55rem;
+    margin-top: 0.25rem;
+}
+.bonus {
+    width: 1.9rem;
+    height: 0.8rem;
+    background: url(../images/nfhbi.png);
+    background-size: 1.9rem 0.8rem;
+    float: right;
+    font-size: 0.24rem;
+    line-height: 0.7rem;
+    text-align: center;
+    color: #c1272b;
+    font-weight: bold;
+}
+.pro_bottom3_left {
+    overflow: hidden;
+    float: left;
+}
+.browse {
+    width: 0.25rem;
+    height: 0.14rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+.pro_bottom3_left p {
+    font-size: 0.22rem;
+    color: #c0c0c0;
+    float: left;
+    margin-left: 0.14rem;
+    margin-top: 0.07rem;
+}
+.collection {
+    width: 0.38rem;
+    height: 0.37rem;
+    float: left;
+    margin-left: 0.35rem;
+    margin-top: 0.03rem;
+}
+.pro_bottom3 {
+    width: 6.6rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.pro_bottom3_left span {
+    font-size: 0.22rem;
+    color: #c0c0c0;
+    float: left;
+    display: block;
+    margin-left: 0.14rem;
+    margin-top: 0.07rem;
+}
+.pro_bottom3_right {
+    overflow: hidden;
+    float: right;
+}
+.mark_img1 {
+    width: 0.74rem;
+    height: 0.28rem;
+    float: left;
+    margin-top: 0.08rem;
+}
+.mark_img2 {
+    width: 0.9rem;
+    height: 0.26rem;
+    float: left;
+    margin-left: 0.36rem;
+    margin-top: 0.08rem;
+}
+.art_appreciation {
+    width: 100%;
+    background-color: white;
+    margin-top: 0.2rem;
+}
+.art_appre_box {
+    width: 6.35rem;
+    margin: 0 auto;
+}
+.art_app_span {
+    font-size: 0.26rem;
+    color: #8a8a8a;
+    display: block;
+    padding-top: 0.25rem;
+}
+.art_appre_box p {
+    font-size: 0.24rem;
+    color: #8a8a8a;
+    line-height: 0.4rem;
+    padding-bottom: 0.18rem;
+    margin-top: 0.1rem;
+}
+.xiala_ico {
+    width: 0.28rem;
+    margin-left: 6.4rem;
+    padding-bottom: 0.2rem;
+}
+#详情部分
+.tab_but {
+    background-color: white;
+}
+.tab_big {
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.tab_big .tab_box {
+    font-size: 0.26rem;
+}
+.goods_top2{
+    background-color: white;
+    padding-top: 0.1rem;
+}
+.introduce {
+    overflow: hidden;
+    margin-left: 0.42rem;
+    margin-top: 0.2rem;
+}
+.introduce p {
+    font-size: 0.26rem;
+    color: #666666;
+    float: left;
+}
+.introduce span {
+    font-size: 0.26rem;
+    color: #333333;
+    display: block;
+    float: left;
+    margin-left: 1.1rem;
+}
+.introduce2 span {
+    margin-left: 1.36rem;
+}
+.introduce3 span {
+    margin-left: 1.62rem;
+}
+.introduce_pro_big {
+    width: 6.6rem;
+    margin: 0 auto;
+}
+.intro_tu1 {
+    width: 6.6rem;
+    height: 6.6rem;
+    margin-top: 0.3rem;
+}
+.artists_describe {
+    font-size: 0.24rem;
+    color: #666666;
+    margin-top: 0.3rem;
+    text-align: justify;
+    line-height: 0.45rem;
+}
+.intro_tu2 {
+    width: 6.6rem;
+    height: 3.3rem;
+    margin-top: 0.3rem;
+}
+.intro_box {
+    width: 6.6rem;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.topic_center {
+    font-size: 0.28rem;
+    color: #333333;
+    text-align: center;
+    margin-top: 0.38rem;
+}
+.intro_box2 {
+    width: 6.6rem;
+    position: relative;
+    margin-top: 0.2rem;
+}
+.intro_tu3 {
+    width: 6.6rem;
+    height: 3.3rem;
+}
+.artists_describe2 {
+    position: absolute;
+    bottom: 0.15rem;
+    color: #ffffff;
+    font-size: 0.24rem;
+    line-height: 0.45rem;
+    text-align: justify;
+    width: 6.4rem;
+    margin-left: 0.1rem;
+}
+.intro_left {
+    width: 3.2rem;
+    height: 3.2rem;
+    float: left;
+}
+.intro_right {
+    width: 3.2rem;
+    height: 3.2rem;
+    float: right;
+}
+.certificate img {
+    width: 7.2rem;
+    height: 0.23rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.certificate_img1 {
+    width: 7.2rem;
+    height: 5.2rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.certificate_img2 {
+    width: 7.2rem;
+    height: 10.4rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.installation_guide img {
+    width: 6.6rem;
+    height: 13.78rem;
+    margin: 0 auto;
+    margin-top: 0.234rem;
+}
+.prompting {
+    margin-top: 0.4rem;
+}
+.promp_tu1 {
+    width: 2.04rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.promp_tu2 {
+    width: 0.81rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.promp_tu3 {
+    width: 1.5rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.promp_tu4 {
+    width: 1.78rem;
+    height: 0.38rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.prompting_content {
+    width: 6.6rem;
+    font-size: 0.22rem;
+    color: #666666;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 0.25rem;
+    line-height: 0.35rem;
+}
+.after_sale_big {
+    width: 6.6rem;
+    border: 0.02rem solid #bfbfbf;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+}
+.after_sale_left {
+    margin-left: 0.3rem;
+}
+.after_sale_box {
+    overflow: hidden;
+    margin-top: 0.45rem;
+    padding-bottom: 0.45rem;
+}
+.after_sale_ico1 {
+    width: 0.7rem;
+    height: 0.7rem;
+    float: left;
+}
+.after_text {
+    float: left;
+    margin-left: 0.2rem;
+}
+.after_text p {
+    font-size: 0.32rem;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 0.1rem;
+}
+.after_text span {
+    font-size: 0.28rem;
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    margin-top: 0.15rem;
+}
+.after_sale_box2 {
+    overflow: hidden;
+    margin-left: 0.14rem;
+    padding-bottom: 0.45rem;
+}
+.after_sale_ico2 {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+}
+
+.bottom_big {
+    width: 6.9rem;
+    overflow: hidden;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom_left {
+    height: 1rem;
+    float: left;
+    margin-left: 0.4rem;
+}
+.bottom_left p {
+    font-size: 0.24rem;
+    color: #626262;
+    text-align: center;
+    margin-top: 0.09rem;
+}
+.bottom_left img {
+    width: 0.31rem;
+    height: 0.31rem;
+    margin: 0 auto;
+    margin-top: 0.16rem;
+}
+.purchase {
+    width: 2.3rem;
+    height: 1rem;
+    font-size: 0.28rem;
+    float: right;
+    background-color: #c1272b;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-right: 0.02rem;
+}
